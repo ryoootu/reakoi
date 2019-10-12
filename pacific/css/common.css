@@ -1,0 +1,446 @@
+@charset "UTF-8";
+
+p, strong, span {
+    line-height: 1.7;
+}
+
+a {
+	text-decoration: none;
+    overflow: hidden;
+    color: #333;
+}
+
+a {
+    color: #1D3994;
+    outline: 0;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-style: normal;
+    font-weight: inherit;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+body, h1, h2, h3, h4, h5, h6, th, td, button, p, blockquote, div, pre.ul, ol, input, .btn, .menu {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: "Hiragino maru Gothic Pro", "ヒラギノ角ゴ Pro W3",Osaka, sans-serif,"メイリオ",Meiryo,"ＭＳ Ｐゴシック";
+    font-size: 12px;
+    font-weight: normal;
+    line-break: strict;
+}
+
+#description {
+  background-color: #1a1a1a;
+  width: 1200px;
+  margin: auto;
+}
+
+#description h1 {
+	color: #fff;
+	font-size: 75%;
+	font-weight: normal;
+	padding: 7px 0;
+	line-height: 1;
+}
+
+#site-id a {
+	color: #1a1a1a;
+	font-size: x-large;
+}
+
+#utility-nav ul {
+	margin: 0;
+}
+
+#utility-nav li {
+	float: left;
+	padding-right: 10px;
+}
+
+#utility-nav li a {
+	color: #ffffff;
+	font-size: 85%;
+	line-height: 1;
+	padding-left: 15px;
+}
+
+#utility-nav li a:hover {
+	background-position: 0 -17px;
+}
+
+
+.screen-reader-text {
+	display: none;
+}
+
+#searchform {
+	font-size: 0;
+	position: relative;
+}
+
+#s {
+	font-size: small;
+	background: url(../images/bg_search_form.png);
+	width: 133px;
+	height: 21px;
+	border: none;
+	padding: 0 0 0 8px;
+}
+
+
+#branding {
+	text-align: center;
+}
+
+#bread-crumb {
+	font-size: 95%;
+	padding: 1px 0 10px;
+}
+
+#bread-crumb ul {
+	margin: 0;
+}
+
+#bread-crumb ul:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+#bread-crumb li {
+	float: left;
+}
+
+#bread-crumb li.sub {
+	padding-left: 10px;
+}
+
+#bread-crumb li.sub:before {
+	letter-spacing: 10px;
+  content: ">";
+}
+
+#contents {
+	background-color: #ffffff;
+}
+
+#contents article {
+}
+
+#contents article:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.adjacent_post_links {
+	margin: 20px 0 0;
+}
+
+.adjacent_post_links ul {
+	margin: 0;
+}
+
+.adjacent_post_links ul:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.adjacent_post_links li {
+	max-width: 325px;
+	height: 50px;
+}
+
+.adjacent_post_links li a {
+	display: block;
+	vertical-align: middle;
+}
+
+.adjacent_post_links li.previous {
+	float: left;
+}
+
+.adjacent_post_links li.previous a {
+    background: url( ../images/bg_previous_link.png) no-repeat left center;
+	padding-left: 20px;
+}
+
+.adjacent_post_links li.next {
+	float: right;
+}
+
+.adjacent_post_links li.next a {
+    background: url( ../images/bg_next_link.png) no-repeat right center;
+	padding-right: 20px;
+}
+
+#back_to_top {
+	margin-top: 50px;
+	text-align: right;
+}
+
+#back_to_top a {
+	position: relative;
+	right: -9px;
+}
+
+#sidebar h2 {
+	font-size: 100%;
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+
+#primary div ul,
+#primary ul {
+	margin: 0;
+	padding: 0;
+}
+
+#primary li {
+	list-style: none;
+	border-top: dotted 1px #b9b4ab;
+	padding: 5px 0;
+}
+
+#primary li a {
+	display: block;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+
+#primary ul li:first-child {
+	border-top: none;
+}
+
+#primary ul ul.children li:first-child {
+	border-top: dotted 1px #b9b4ab;
+}
+
+#primary aside {
+	background: url(../images/bg_sidebar_primary_column_shadow.png) no-repeat left bottom;
+	padding: 0 3px 3px;
+	margin-bottom: 27px;
+}
+
+#primary aside h1 {
+	color: #fff;
+	line-height: 1;
+	background: url(../images/bg_sidebar_title_blue.png) no-repeat;
+	padding: 12px 10px 0 24px;
+	height: 38px;
+	margin-bottom: -12px;
+	position: relative;
+	z-index: 10;
+}
+
+#primary ul,
+#primary div {
+	padding: 17px 10px 10px;
+	background-color: #ffffff;
+}
+
+#primary div ul {
+	background: none;
+}
+
+#primary ul ul.children {
+	background: none;
+	padding: 5px 0 0 15px;
+}
+
+#secondary {
+  padding: 3px;
+}
+
+#secondary aside {
+  margin-bottom: 15px;
+}
+
+#copyright {
+	color: #000000;
+	text-align: center;
+	font-size: 65%;
+}
+#copyright a {
+	color: #695f49;
+}
+/* Images Style for Twenty Ten */
+.entry-content img,
+.comment-content img,
+.widget img {
+	margin-bottom:10px;
+}
+
+img[class*="align"],
+img[class*="wp-image-"] {
+}
+img.size-full {
+}
+.entry-content img.wp-smiley {
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+}
+p img,
+.wp-caption {
+}
+.wp-caption {
+}
+.wp-caption img {
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+}
+.wp-caption .wp-caption-text {
+}
+.wp-caption .wp-caption-text:before {
+}
+
+/* ================================================================================
+	#page-nav
+================================================================================ */
+.page-nav {
+	text-align: center;
+}
+.page-nav li {
+	display: inline;
+	list-style: none outside none;
+}
+.page-nav li a {
+	border: 1px solid rgb(230,230,230);
+	color: rgb(102,102,102);
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+.page-nav li a:hover {
+	border: 1px solid rgb(230,230,230);
+}
+.page-nav li a:active {
+	box-shadow: 0 0 3px rgba(0,0,0,0.2) inset;
+	top:1px;
+}
+
+.page-nav li.current span {
+	border: 1px solid rgb(186,166,132);
+	color: rgb(121,81,15);
+	font-weight: bold;
+	border-radius: 3px;
+}
+.page-nav li.first span,
+.page-nav li.previous span,
+.page-nav li.next span,
+.page-nav li.last span {
+	background: rgb(248,248,248);
+	border: 1px solid rgb(230,230,230);
+	color: rgb(180,180,180);
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+.page-nav li.page_nums span {
+	background: rgb(102,102,102);
+	border: 1px solid rgb(51,51,51);
+	color: rgb(255,255,255);
+}
+.page-nav li a,
+.page-nav li.current span,
+.page-nav li.first span,
+.page-nav li.previous span,
+.page-nav li.next span,
+.page-nav li.last span,
+.page-nav li.page_nums span {
+	padding: 0.25em 0.8em;
+	display: inline-block;
+	position:relative;
+}
+
+.pages-link {
+	text-align: center;
+}
+.pages-link a span {
+	border: 1px solid rgb(230,230,230);
+	color: rgb(102,102,102);
+	text-decoration: none;
+	font-weight: normal;
+}
+.pages-link span {
+	border: 1px solid rgb(186,166,132);
+	color: rgb(121,81,15);
+	font-weight: bold;
+	border-radius: 3px;
+	padding: 0.25em 0.8em;
+	display: inline-block;
+	position:relative;
+}
+.pages-link a:hover span {
+	border: 1px solid rgb(230,230,230);
+}
+.pages-link a:active span {
+	box-shadow: 0 0 3px rgba(0,0,0,0.2) inset;
+	top:1px;
+}
+
+/* ================================================================================
+	#パンくずナビ
+================================================================================ */
+#bread-crumb {
+	font-size: 95%;
+	padding: 1px 0 10px;
+}
+
+#bread-crumb ul {
+	margin: 0;
+}
+
+#bread-crumb ul:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+#bread-crumb li {
+	float: left;
+}
+
+#bread-crumb li.sub {
+	padding-left: 10px;
+}
+
+#bread-crumb li.sub:before {
+	letter-spacing: 10px;
+    content: ">";
+}
+/*===================================================-
+	#サイドバーウィジェット
+====================================*/
+.twitter-wrap{
+    overflow: hidden;
+  }
+  .twitter-wrap.twitter-timeline iframe{
+    /* 20pxの部分は埋め込んだタイムラインの左右に必要な余白の総計を記載 */
+    width: calc(100vw - 10px)!important;
+  }

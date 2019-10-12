@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+#global-nav ul {
+  background-color: #ffff;
+	margin: 0;
+	position: absolute;
+	z-index: 10;
+}
+
+#global-nav ul li {
+	float: left;
+}
+
+#global-nav ul li li {
+	float: none;
+}
+
+#global-nav a {
+	display: block;
+	width: 159px;
+	height: 52px;
+	text-indent: -9999px;
+	outline: 0;
+  background-repeat : no-repeat;
+}
+
+#global-nav li ul {
+	display: none;
+}
+
+#global-nav #menu-item-112 {
+	background-image: url(../images/nav/top_navi_home.png);
+}
+#global-nav #menu-item-115 {
+	background-image: url(../images/nav/top_navi_system.png);
+}
+#global-nav #menu-item-496 {
+	background-image: url(../images/nav/top_navi_schedule.png);
+}
+#global-nav #menu-item-118 {
+	background-image: url(../images/nav/top_navi_recruit.png);
+}
+#global-nav #menu-item-119 {
+	background-image: url(../images/nav/top_navi_access.png);
+}
+#global-nav #menu-item-516 {
+	background-image: url(../images/nav/twi-01.png);
+}
+#global-nav #menu-item-590 {
+	background-image: url(../images/nav/cos-01.png);
+}
+#global-nav #menu-item-598 {
+	background-image: url(../images/nav/event-02.png;);
+}
+#global-nav #menu-item-599 {
+	background-image: url(../images/nav/top_navi_girl.png;);
+}
+
+#global-nav .current-menu-item,
+#global-nav .current-post-ancestor,
+#global-nav .current-page-ancestor,
+#global-nav .menu-item:hover {
+	background-position: 0 -52px;
+}
+
+#global-nav ul ul {
+    border-bottom: 3px solid #fff;
+    border-radius: 0 0 3px 3px;
+    display: none;
+    position: absolute;
+    top: 41px;
+    z-index: 100;
+	width: auto;
+}
+
+#global-nav ul .menu-item ul a {
+	width: 170px;
+	color: #333;
+  background: none;
+	text-indent: 0;
+	height: 22px;
+	padding: 10px 5px;
+	border-top: dotted 1px #ddd;
+}
+
+#global-nav ul .menu-item ul a:hover {
+	color: #f00;
+}
+
+#global-nav ul .menu-item ul li {
+	background: #fff;
+	float: none;
+	padding: 0 5px;
+}
+
+#global-nav ul .menu-item ul li:first-child a {
+	border-top: none;
+}
+
+#global-nav ul li:hover > ul, div.menu ul li:hover > ul {
+    display: block;
+}
