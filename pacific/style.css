@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*
+Theme Name: reakoi
+Theme URI: http://underscores.me/
+Description: reakoi
+Author: ryotakasamatsu
+Author URI: http://underscores.me/
+Version:1.0
+*/
+@import url(css/html5reset-1.6.1.css);
+@import url(css/layout.css);
+@import url(css/common.css);
+@import url(css/nav.css);
+@import url(css/content.css);
+@import url(css/top.css);
